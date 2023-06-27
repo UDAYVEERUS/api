@@ -12,12 +12,7 @@ const cors=require("cors");
 
 // using cors origin
 app.use(cors({
-  origin: [
-
-		"http://localhost:3000",
-		// "http://localhost:4004",
-		
-	]
+	origin:["*"]
 })) 
 
 // user route
